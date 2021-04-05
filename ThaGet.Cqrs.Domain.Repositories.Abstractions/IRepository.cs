@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-using ThaGet.Cqrs.Domain.Abstractions;
+using ThaGet.Cqrs.Contract.Abstractions;
 using ThaGet.Cqrs.Domain.Entities.Abstractions;
 using ThaGet.Cqrs.Filter.Abstractions;
 using ThaGet.Cqrs.Include.Abstractions;

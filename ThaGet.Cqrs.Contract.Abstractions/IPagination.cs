@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ThaGet.Cqrs.Domain.Abstractions
+namespace ThaGet.Cqrs.Contract.Abstractions
 {
     public interface IPagination<T>
     {

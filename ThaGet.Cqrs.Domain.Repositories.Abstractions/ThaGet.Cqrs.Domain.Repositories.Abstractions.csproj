@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Authors>ThaRyo</Authors>
     <Description>Abstractions for ThaGet.Cqrs.Domain.Repositories. Used with cqrs template.</Description>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -11,12 +11,12 @@
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
-  <Target Name="CopyPackage" AfterTargets="Pack">
-    <Copy SourceFiles="$(OutputPath)..\$(PackageId).$(PackageVersion).nupkg" DestinationFolder="F:\Development\NuGet-packages" />
+  <Target Name="PublishToGitHub" AfterTargets="Pack">
+    <Exec Command="F:\Development\Projects\DotNet\publish.bat $(OutputPath)..\$(PackageId).$(PackageVersion).nupkg" />
   </Target>
 
   <ItemGroup>
-    <PackageReference Include="ThaGet.Cqrs.Domain.Abstractions" Version="1.0.0" />
+    <PackageReference Include="ThaGet.Cqrs.Contract.Abstractions" Version="1.0.0" />
     <PackageReference Include="ThaGet.Cqrs.Domain.Entities.Abstractions" Version="1.0.0" />
     <PackageReference Include="ThaGet.Cqrs.Filter.Abstractions" Version="1.0.0" />
     <PackageReference Include="ThaGet.Cqrs.Include.Abstractions" Version="1.0.0" />

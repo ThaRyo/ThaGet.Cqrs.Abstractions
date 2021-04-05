@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThaGet.Cqrs.Domain.Entities
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThaGet.Cqrs.Contract.Abstractions", "ThaGet.Cqrs.Contract.Abstractions\ThaGet.Cqrs.Contract.Abstractions.csproj", "{1BDD0F2E-B0B7-4E75-8104-BB3910940D7D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThaGet.Cqrs.Domain.Abstractions", "ThaGet.Cqrs.Domain.Abstractions\ThaGet.Cqrs.Domain.Abstractions.csproj", "{9CA95B94-4DA6-486D-87BD-55966BDCA455}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThaGet.Cqrs.Domain.Repositories.Abstractions", "ThaGet.Cqrs.Domain.Repositories.Abstractions\ThaGet.Cqrs.Domain.Repositories.Abstractions.csproj", "{6E5ED124-704D-422C-8C85-6AAAC0B17C9C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThaGet.Cqrs.Include.Abstractions", "ThaGet.Cqrs.Include.Abstractions\ThaGet.Cqrs.Include.Abstractions.csproj", "{C0A842D1-76C0-4BA1-9A1B-F4703FF91675}"
@@ -41,10 +39,6 @@ Global
 		{1BDD0F2E-B0B7-4E75-8104-BB3910940D7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BDD0F2E-B0B7-4E75-8104-BB3910940D7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BDD0F2E-B0B7-4E75-8104-BB3910940D7D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9CA95B94-4DA6-486D-87BD-55966BDCA455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9CA95B94-4DA6-486D-87BD-55966BDCA455}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9CA95B94-4DA6-486D-87BD-55966BDCA455}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9CA95B94-4DA6-486D-87BD-55966BDCA455}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6E5ED124-704D-422C-8C85-6AAAC0B17C9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6E5ED124-704D-422C-8C85-6AAAC0B17C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E5ED124-704D-422C-8C85-6AAAC0B17C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
